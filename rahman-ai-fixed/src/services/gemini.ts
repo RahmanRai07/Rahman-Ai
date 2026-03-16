@@ -10,9 +10,9 @@ export const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
 // ✅ Correct, working Gemini model names (as of 2025-2026)
 export const MODELS = {
-  text: "gemini-1.5-pro-latest",
-  flash: "gemini-1.5-flash-latest",
-  image: "gemini-1.5-flash-latest",
+  text: "gemini-2.0-flash",
+  flash: "gemini-2.0-flash",
+  image: "gemini-2.0-flash",
 };
 
 export async function analyzeResume(pdfBase64: string, role: string, company: string) {
