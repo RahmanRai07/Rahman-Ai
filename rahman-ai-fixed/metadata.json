@@ -1,0 +1,8 @@
+{
+  "name": "Rahman Ai",
+  "description": "A sophisticated personal AI assistant for image editing, career placement analysis, and productivity management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
